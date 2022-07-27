@@ -1,16 +1,49 @@
-body{
+body {
     display:flex;
     justify-content:center;
     align-items:center;
     height: 100vh;
     margin: 0;
-    background-color: rgb(195, 20, 20);
+    background-color: rgb(35, 34, 34);
+    font-family: open sans;
+    background-image: url('https://source.unsplash.com/1600x900/?ipês,sky,nightsky,sunny day')
 }
 
-.card{
-    background-color: #fff;
+.card {
+    background: #000000d0;
+    color:white;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
 }
+
+.search-box {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    outline: none;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+}
+
+
+
