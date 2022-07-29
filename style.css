@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body {
     display:flex;
     justify-content:center;
@@ -5,8 +7,9 @@ body {
     height: 100vh;
     margin: 0;
     background-color: rgb(35, 34, 34);
-    font-family: open sans;
-    background-image: url('https://source.unsplash.com/1600x900/?ipês,sky,nightsky,sunny day')
+    font-family:open sans;
+    background-image: url('https://source.unsplash.com/1600x900/?ipês,weather');
+    font-size: 120%;
 }
 
 .card {
@@ -25,20 +28,32 @@ body {
 
 }
 
+button:hover {
+    background: black;
+    color: white;
+}
 button {
     margin: 0.5em;
+    width: max-content;
     border-radius: 50%;
     border: none;
     height: 2.5em;
     width: 2.5em;
     outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background: #7c7c7c6b;
+    color: white;
+    
 }
 
 input.search-bar {
+    width: 100%;
+    margin: 0.1em;
     border: none;
     outline: none;
-    padding: 0.8em;
-    border-radius: 18px;
+    padding: 0.5em 1em;
+    border-radius: 30px;
     background: #7c7c7c2b;
     color: white;
     font-family: inherit;
